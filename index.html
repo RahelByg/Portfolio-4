@@ -3,13 +3,11 @@
 
 <head>
   <meta charset="utf-8">
-  <!--Preview-->
+  <!--Preview url-->
   <meta property="og:title" content="Your Start-up website" />
   <meta property="og:description" content="This app will blow your mind. Our start-up adds the greatest value to your life. Many VIPs already confirmed this." />
   <meta property="og:url" content="https://rahelbyg.github.io/Portfolio-4/" />
-  <meta property="og:image" content="https://images.pexels.com/photos/933964/pexels-photo-933964.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940/>
-<meta content="1200" property="og:image:width">
-  <meta content="630" property="og:image:height">                                            
+  <meta property="og:image" content="images/preview.png" />
   <title>Your Startup name</title>
   <!--Google Fonts-->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap" rel="stylesheet">
@@ -17,13 +15,13 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
 
-  <!--Fomt Awesome-->
+  <!--Font Awesome-->
 
   <script src="https://kit.fontawesome.com/50499527a3.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <section id="title">
+  <section id="title" class="colored-section">
     <div class="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="">Your start-up</a>
@@ -46,7 +44,7 @@
       </nav>
       <div class="row">
         <div class="col-lg-6">
-          <h1>Great title for your app.</h1>
+          <h1 class="big-heading">Great title for your app.</h1>
           <button class="btn btn-dark btn-lg download-button" type="button"><i class="fab fa-apple"></i> Download</button>
           <button class="btn btn-outline-light btn-lg download-button" type="button"> <i class="fab fa-google-play"></i> Download</button>
         </div>
@@ -56,35 +54,35 @@
       </div>
     </div>
   </section>
-  <section id="features" class="row">
+  <section id="features" class="white-section container-fluid row">
     <div class="feature-box col-lg-4">
       <i class="fas fa-check-circle fa-4x"></i>
-      <h3>Easy to use.</h3>
+      <h3 class="feature-heading">Easy to use.</h3>
       <p>Explain just how easy people could use it.</p>
     </div>
     <div class="feature-box col-lg-4">
       <i class="fas fa-bullseye fa-4x"></i>
-      <h3>VIP</h3>
+      <h3 class="feature-heading">VIP</h3>
       <p>Let potential client know who else downloads this app.</p>
     </div>
     <div class="feature-box col-lg-4">
       <i class="fas fa-heart fa-4x"></i>
-      <h3>Guaranty</h3>
+      <h3 class="feature-heading">Guaranty</h3>
       <p>What kind of problem is definitely solved by using this app.</p>
     </div>
 
   </section>
 
-  <section id="testimonials">
+  <section id="testimonials" class="colored-section">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <h2>Very amazing testimonial of a relatable client.</h2>
+          <h2 class="section-heading">Very amazing testimonial of a relatable client.</h2>
           <img class="testimonial-image" src="images/woman-1.png" alt="client-profile">
           <em>Name, City</em>
         </div>
         <div class="carousel-item">
-          <h2 class="testimonial-text">Another very great testimonial of a happy client.</h2>
+          <h2 class="section-heading">Another very great testimonial of a happy client.</h2>
           <img class="testimonial-image" src="images/woman-2.png" alt="client-profile">
           <em>Name, City</em>
         </div>
@@ -103,19 +101,18 @@
 
   <!-- Press -->
 
-  <section id="press">
+  <section id="press" class="colored-section">
     <img class="press-logo" src="images/logo-1.svg" alt="logo1">
     <img class="press-logo" src="images/logo-2.svg" alt="logo2">
     <img class="press-logo" src="images/logo-3.svg" alt="logo3">
     <img class="press-logo" src="images/logo-4.svg" alt="logo4">
-
   </section>
 
 
   <!-- Pricing -->
 
-  <section id="pricing">
-    <h2>An adaptable pricing card</h2>
+  <section id="pricing" class="white-section">
+    <h2 class="section-heading">An adaptable pricing card</h2>
     <p>Offer free, affordable and VIP price cards.</p>
     <div class="row">
       <div class="pricing-column col-lg-4 col-md-6">
@@ -124,7 +121,7 @@
             <h3>Name of free plan</h3>
           </div>
           <div class="card-body">
-            <h2>Free</h2>
+            <h2 class="section-heading">Free</h2>
             <p>Characteristic 1</p>
             <p>Characteristic 2</p>
             <p>Characteristic 3</p>
@@ -138,7 +135,7 @@
             <h3>Name of affordable plan</h3>
           </div>
           <div class="card-body">
-            <h2>$price / month</h2>
+            <h2 class="section-heading">$price / month</h2>
             <p>Characteristic 1</p>
             <p>Characteristic 2</p>
             <p>Characteristic 3</p>
@@ -152,7 +149,7 @@
             <h3>Name of VIP plan</h3>
           </div>
           <div class="card-body">
-            <h2>$price / month</h2>
+            <h2 class="section-heading">$price / month</h2>
             <p>Characteristic 1</p>
             <p>Characteristic 2</p>
             <p>Characteristic 3</p>
@@ -167,9 +164,9 @@
 
   <!-- Call to Action -->
 
-  <section id="cta">
+  <section id="cta" class="container-fluid colored-section">
 
-    <h3>Describe how this app creates value for potential client.</h3>
+    <h3 class="big-heading">Describe how this app creates value for a potential client.</h3>
     <button class="btn btn-dark btn-lg download-button" type="button"><i class="fab fa-apple"></i> Download</button>
     <button class="btn btn-outline-light btn-lg download-button" type="button"> <i class="fab fa-google-play"></i> Download</button>
 
@@ -178,7 +175,7 @@
 
   <!-- Footer -->
 
-  <footer id="footer">
+  <footer id="footer" class="white-section">
     <i class="fab fa-twitter"></i>
     <i class="fab fa-facebook-f"></i>
     <i class="fab fa-instagram"></i>
