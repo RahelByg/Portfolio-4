@@ -31,9 +31,13 @@ p {
 }
 
 @media (max-width: 800px) {
-	.container-fluid {
-  padding: 7% 5%;
-}
+  .container-fluid {
+    padding: 7% 3%;
+  }
+
+  #title .container-fluid {
+    padding: 3% 3% 7%;
+  }
 }
 
 .colored-section {
@@ -133,11 +137,7 @@ p {
 }
 
 .carousel-item {
-  padding: 5% 0;
-}
-
-#press {
-  padding-bottom: 3%;
+  padding-top: 5%;
 }
 
 .press-logo {
@@ -147,7 +147,7 @@ p {
 
 /*Pricing section*/
 #pricing {
-  padding: 100px;
+  padding: 5%;
 }
 
 .pricing-column {
