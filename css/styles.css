@@ -30,6 +30,12 @@ p {
   padding: 7% 15%;
 }
 
+@media (max-width: 800px) {
+	.container-fluid {
+  padding: 7% 5%;
+}
+}
+
 .colored-section {
   color: white;
   background-color: #9DD3FA;
